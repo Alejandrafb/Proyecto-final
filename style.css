@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@500&display=swap');
+
+h2{
+    color: #626569;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+}
+.color-nav{
+    background-color: #91A8AD;
+}
+.header ul li:hover{
+    font-weight: bolder;
+}
+.navbar img {
+    width: 5rem;
+}
+.btn-boton-nav{
+    background-color: #80E6E8;
+    color: rgb(15, 17, 44);
+}
+.card :hover{
+    background-color: #7DC2C6;
+}
+.btn-card{
+    background-color: #80E6E8;
+    color: rgb(15, 17, 44);
+ }
+.btn-boton{
+    background-color: #80E6E8;
+    color: rgb(15, 17, 44);
+}
+.card-body-comunidad img{
+    width: 10rem;
+    padding: 2px;
+}
+.card-body-comunidad{
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    text-align: center;
+}
+.footer {
+    background-color:#91A8AD;
+}
+
+.redes {
+    display: flex;
+    height: 47px;
+    align-content: center;
+    justify-content: center;
+}
+
+.logoFooter {
+    height: 80px;
+
+}
+
+footer .derechosA {
+    display: flex;
+    color: rgb(17, 10, 15);
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+/* --------------------------------------------------------------------------------------------------------- */
+/*PAGINA CURSOS */
+
+.header img {
+    width: 5rem;
+    padding: 8px;
+}
+
+.bannerCursos {
+    width: 1350px;
+    height: 300px;
+}
+
+.paginaCursos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.paginaCursos .cursoOne .imgCursoOne {
+    width: 100%;
+    height: 27rem;
+    border-radius: 5%;
+    border: 5px #3c6997 double;
+
+}
+
+.paginaCursos .cursoTwo .imgCursoTwo {
+    width: 100%;
+    height: 27rem;
+    border-radius: 5%;
+    border: 5px #3c6997 double;
+}
+
+.paginaCursos .cursoThree .imgCursoThree {
+    width: 100%;
+    height: 27rem;
+    border-radius: 5%;
+    border: #3c6997;
+    border: 5px #3c6997 double;
+}
+
+
+
+/* pagina experiencias */
+
+
+.header img {
+    width: 5rem;
+    padding: 8px;
+}
+
+.bannerExp {
+    width: 1350px;
+    height: 300px;
+}
+
+.paginaExperiencias {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.paginaExperiencias .expUno .imgExpUno {
+    width: 100%;
+    height: 27rem;
+}
+
+.paginaExperiencias .expDos .imgExpDos {
+    width: 100%;
+    height: 27rem;
+
+}
+
+.paginaExperiencias .expTres .imgExpTres {
+    width: 100%;
+    height: 27rem;
+}
+
+.paginaExperiencias .expCuatro .imgExpCuatro {
+    width: 100%;
+    height: 27rem;
+
+}
+
+/* MOBILE LAST */
+@media (max-width: 320px) {
+
+    .grid-experiencias {
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 0.1fr;
+        grid-template-areas:
+            "header"
+            "banner"
+            "tituloComunidad "
+            "paginaExperiencias"
+            "footer";
+    }
+
+    .bannerExp {
+        width: 100%;
+        height: 80%;
+    }
+
+    .header {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+}
+
+/* -------------------------------------------------------------------------------------------- */
+/* pagina nosotros */
+
+.header img {
+    width: 5rem;
+    padding: 8px;
+}
+ 
+.bannerTeam {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around
+
+}
+
+.quienes {
+    display: flex;
+    background-color: #cad5e0;
+    height: 170px;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: space-around
+
+}
+.equipo{
+    display: flex;
+    background-color: #cad5e0;
+    height: 170px;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.titulosNosotros {
+    text-align: left;
+    color: rgb(5, 12, 19);
+}
+/* MOBILE LAST */
+@media (max-width: 320px) {
+
+    .grid-nosotros {
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 0.1fr;
+        grid-template-areas:
+            "header"
+            "banner"
+            "quienes"
+            "equipo"
+            "footer";
+    }
+
+    .header {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+}
+
+/* --------------------------------------------------------------------------------------------------- */
+/* pagina inscripciones */
+.header img {
+    width: 5rem;
+    padding: 8px;
+}
+
+.form-control {
+    width: 78%;
+}
+h4{
+    color: #626569;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+}
