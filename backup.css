@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@500&display=swap');
+
+h2 {
+    color: #626569;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.color-nav {
+    background-color: #79bccb;
+}
+
+.header ul li:hover {
+    font-weight: bolder;
+}
+
+.navbar img {
+    width: 5rem;
+}
+
+.btn-boton-nav {
+    background-color: #80E6E8;
+    color: rgb(15, 17, 44);
+}
+
+.card :hover {
+    background-color: #7DC2C6;
+}
+
+.btn-card {
+    background-color: #80E6E8;
+    color: rgb(15, 17, 44);
+}
+
+.btn-boton {
+    background-color: #80E6E8;
+    color: rgb(15, 17, 44);
+}
+
+.card-body-comunidad img {
+    width: 10rem;
+    padding: 2px;
+}
+
+.card-body-comunidad {
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer {
+    background-color: #79bccb;
+}
+
+.redes {
+    display: flex;
+    height: 47px;
+    align-content: center;
+    justify-content: center;
+}
+
+.logoFooter {
+    height: 80px;
+
+}
+
+footer .derechosA {
+    display: flex;
+    color: rgb(17, 10, 15);
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+/* --------------------------------------------------------------------------------------------------------- */
+/*PAGINA CURSOS */
+
+.bannerCursos {
+    width: 1350px;
+    height: 300px;
+}
+
+.card-img-top {
+    width: 15rem;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.btn-boton-cursos {
+    background-color: #80E6E8;
+}
+
+/* pagina inscripciones */
+.header img {
+    width: 5rem;
+    padding: 8px;
+}
+
+.form-control {
+    width: 78%;
+}
+
+h4 {
+    color: #626569;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}

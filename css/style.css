@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+.parrafo, .section {
+  text-align: center;
+  font-size: 25px; }
+
+.header {
+  background-color: #80E6E8; }
+
+.nav {
+  background-color: #79bccb; }
+
+.navbar img {
+  width: 5rem; }
+
+.btn-boton-nav {
+  background-color: #80E6E8;
+  color: #0f112c; }
+
+.parrafo {
+  background-color: #94c94d;
+  color: white;
+  text-transform: uppercase;
+  padding: 3rem; }
+
+.section {
+  background-color: #cae532;
+  color: white;
+  text-transform: uppercase;
+  padding: 1rem; }
+
+.card-body-comunidad {
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  text-align: center; }
+.card-body-comunidad img {
+    width: 10rem;
+    padding: 2px;
+}
+  .footer {
+    background-color: #79bccb;
+}
+
+.redes {
+    display: flex;
+    height: 47px;
+    align-content: center;
+    justify-content: center;
+}
+
+.logoFooter {
+    height: 80px;
+
+}
+
+footer .derechosA {
+    display: flex;
+    color: rgb(17, 10, 15);
+    justify-content: center;
+    flex-wrap: wrap;
+}
+h2 {
+  color: #626569;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}

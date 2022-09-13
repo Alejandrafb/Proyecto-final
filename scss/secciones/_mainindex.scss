@@ -1,0 +1,17 @@
+.parrafo{
+    @extend %estiloParrafo;
+    @include fontStyle(#94c94d, 3rem)
+}
+
+.section{
+    @extend %estiloParrafo;
+    @include fontStyle (#cae532, 1rem);
+}
+
+.card-body-comunidad {
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    text-align: center;
+}
